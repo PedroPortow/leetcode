@@ -19,12 +19,12 @@ class Solution(object):
 			prev_node = current_node # na proxima iteracao, nó anterior vai ser o nó atual nessa iteracao
 			current_node = next_node # passando pro proximo node
 		
-		return prev_node # vai ter a nova "head"
+		return prev_node # retornando a nova "haed"
 	
 	def printList(self, node):
-			while node:
-					print(node.val)
-					node = node.next
+		while node:
+			print(node.val)
+			node = node.next
 
 # 1 -> 2 -> 3
 # 3 -> 2 -> 1 
